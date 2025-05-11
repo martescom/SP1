@@ -8,9 +8,6 @@ footer {
    align-items: center; 
 }
 
-
-
-
 .large-img {
     max-width: 340px;
     height: auto;
@@ -25,7 +22,7 @@ footer {
 }
 
 .intro {
-     display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
 }
@@ -35,10 +32,11 @@ h1{
     margin-bottom: 50px;
 }
 
-p {
+.main-text {
     max-width: 340px;
     height: auto;
 }
+
 
 .small-text{
     max-width: 160px;
@@ -46,9 +44,59 @@ p {
     padding-left: 10px;
 }
 
-footer{
+footer {
     margin-bottom: 100px;
 }
 
+}
 
+/* desktop */
+@media (min-width: 1002px) {
+
+main {
+    margin: 150px;
+} 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+     
+}
+
+.large-img {
+        width: 361px;
+        height: auto;
+}
+
+.main-text {
+    max-width: 361px;
+    height: auto;
+
+ }
+    
+.intro img {
+    order: 1;
+}
+
+.boy-activity img {
+    order: 2;
+}
+
+.bottom-text {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 70px;
+    }
+ }
+
+ footer {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

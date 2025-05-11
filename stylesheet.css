@@ -305,7 +305,8 @@ ul {
 @media (min-width: 1002px){
 
     main { 
-        margin: 334px;
+        margin-left: 64px;
+        margin-right: 64px;
     }
 
     nav {
