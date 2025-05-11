@@ -3,48 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="overlay.css">
+    <script src="https://kit.fontawesome.com/4d005336e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="explore.css">
+    <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
+    <meta name="description" content="Discover the Community Science Center in Tønsberg — a vibrant, family-friendly museum with hands-on exhibits, educational programs for kids and teachers, and exciting holiday clubs to spark curiosity and learning." />
+    <title>Community Science Center | Explore, Learn & Discover in Tønsberg</title>
 </head>
 <body>
-    <!-- Toggle buttons -->
-<input type="checkbox" id="overlay1" hidden>
-<input type="checkbox" id="overlay2" hidden>
-<input type="checkbox" id="overlay3" hidden>
-<input type="checkbox" id="overlay4" hidden>
-<div class="buttons">
-  <label for="overlay1" class="open-button1">Open Overlay 1</label>
-  <label for="overlay2" class="open-button2">Open Overlay 2</label>
-  <label for="overlay3" class="open-button3">Open Overlay 3</label>
-  <label for="overlay4" class="open-button4">Open Overlay 4</label>
-</div>
-<!-- Overlay 1 -->
-<div class="overlay" id="overlay-1">
-  <div class="overlay-content">
-    <label for="overlay1" class="close-button">&times;</label>
-    <p>This is Overlay 1</p>
-  </div>
-</div>
-<!-- Overlay 2 -->
-<div class="overlay" id="overlay-2">
-  <div class="overlay-content">
-    <label for="overlay2" class="close-button">&times;</label>
-    <p>This is Overlay 2</p>
-  </div>
-</div>
-<!-- Overlay 3 -->
-<div class="overlay" id="overlay-3">
-  <div class="overlay-content">
-    <label for="overlay3" class="close-button">&times;</label>
-    <p>This is Overlay 3</p>
-  </div>
-</div>
-<!-- Overlay 4 -->
-<div class="overlay" id="overlay-4">
-  <div class="overlay-content">
-    <label for="overlay4" class="close-button">&times;</label>
-    <p>This is Overlay 4</p>
-  </div>
-</div> 
+    <header>
+        <div class="header">
+            <section class="logo-text">
+              <a href="index.html">
+              <img src="images-desktop/logo.svg" alt="Site Logo" class="logo"></a>
+              <div class="text-logo">
+                  <p class="text">Community</p>
+                  <p class="text">Science</p>
+                  <p class="text">Center</p>
+              </div>
+            </section>
+            <div class="container">
+            <input type="checkbox" id="menu-checkbox"/>
+            <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
+            <nav>
+                <ul>
+                    <li><a href="explore.html" class="nav-text">Explore</a></li>
+                    <li><a href="exhibition-spaces.html" class="nav-text">Exhibition Spaces</a></li>
+                    <li><a href="special-event-and-exhibition.html" class="nav-text">Special event and exhibition</a></li>
+                    <li><a href="get-involved.html" class="nav-text">Get involved</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="search">
+                <img src="images-phone/P-search-icon.svg" class="search-icon" alt="Search icon">
+            </div>    
+        </div>
+    </header>
+    <main>
+        <h1>Explore</h1>
+        <h2>For kids</h2>
+        <section>
+          <img src="images-phone/P-Creative-mind.jpg" alt="Colorful silhouette of a person's head filled with icons representing science, music, math, reading, and creativity, including DNA strands, books, test tubes, musical notes, and gears, symbolizing a diverse and vibrant mind." />
+          <p>Are you a young person looking to learn more about science?</p>
+        </section>
+        <section>
+            <p>Come on down to our museum, there’s plenty to see and do. You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth?</p>
+            <img src="images-desktop/D-kids-with-biology.jpg" alt="Teacher and two young students wearing lab coats and safety goggles conducting a science experiment with plants and droppers in a classroom setting." />
+            <p>Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
+            <img src="images-desktop/D-teacher-and-girl.jpg" alt="teacher and student in lab coats conducting a science experiment with green slime-like substance in a glass bowl."/>
+            <p>During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a  message.</p>
+         </section>
+         <h2>For teachers</h2>
+         <section>
+            <img src="images-desktop/D-teacher-head.jpg" alt="Colorful illustration of a human head wearing a graduation cap filled with scientific and mathematical symbols, representing knowledge and education." />
+            <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. </p>
+         </section>
+         <img src="images-desktop/D-beaker-bio.jpg" alt="Scientist wearing gloves holding a round-bottom flask with green plant cuttings immersed in liquid, with a microscope in the background." />
+         <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
+         <img src="images-desktop/D-researchers-together.jpg" alt="Three scientists in lab coats collaborating and discussing data on a laptop in a modern laboratory." />
+         <p>Our museum offers various ways for you to use our resources and contribute towards them. We have online records, laboratory space, and a working relationship with a number of universities around the country.</p>
+         <img src="images-desktop/D-man-researchers.jpg" alt="Male scientist wearing safety glasses using a micropipette in a laboratory setting with microscopes and computer monitors in the background." />
+        <div class="bottom-nav">
+            <input type="checkbox" id="overlay1" hidden>
+            <input type="checkbox" id="overlay2" hidden>
+            <input type="checkbox" id="overlay3" hidden>
+            <input type="checkbox" id="overlay4" hidden>
+            <input type="checkbox" id="overlay5" hidden>
+            <div class="buttons">
+                <label for="overlay1" class="open-button1"><img src="images-desktop/D-info.svg" class="img-ove1" alt="Information icon"></label>
+                <label for="overlay2" class="open-button2"><img src="images-desktop/D-location.svg" class="img-ove2" alt="Locations icon"></label>
+                <label for="overlay3" class="open-button3"><img src="images-desktop/D-food.svg" class="img-ove3" alt="Food and drink icon"></label>
+                <label for="overlay4" class="open-button4"><img src="images-desktop/D-access.svg" class="img-ove4" alt="Accessibility icon."></label>
+                <label for="overlay5" class="open-button5"><img src="images-desktop/D-shop.svg" class="img-ove5" alt="Shop icon"></label>
+            </div>
+            <div class="overlay" id="overlay-1">
+            <div class="overlay-content">
+                <label for="overlay1" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
+                <h1>OPENING HOURS</h1>
+                <p>Monday: Closed</p>
+                <p>Tuesday: 10:00 – 16:00</p>
+                <p>Wednesday: 10:00 – 16:00</p>
+                <p>Thursday: 10:00 – 16:00</p>
+                <p>Friday: 10:00 – 19:00</p>
+                <p>Saturday: 09:00 – 16:00</p>
+                <p>Sunday: 09:00 – 13:00</p>
+            </div>
+            </div>
+            <div class="overlay" id="overlay-2">
+            <div class="overlay-content">
+                <label for="overlay2" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
+                <h1>Location</h1>
+                <p>The museum is located at storgaten 16, 3126 Tønsberg</p>
+                <div>
+                    <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.0131769262891!2d10.407391177649197!3d59.26592887458365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b73fd14e72cd%3A0xd2b74cdd6f275640!2sStorgaten%2016%2C%203126%20T%C3%B8nsberg!5e0!3m2!1sno!2sno!4v1746888124834!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </div>
+            <div class="overlay" id="overlay-3">
+            <div class="overlay-content">
+                <label for="overlay3" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
+                <h1>Food and drink</h1>
+                <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+            </div>
+            </div>
+            <div class="overlay" id="overlay-4">
+            <div class="overlay-content">
+                <label for="overlay4" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
+                <h1>Accessibility</h1>
+                <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired</p>
+            </div>
+            </div> 
+            <div class="overlay" id="overlay-5">
+            <div class="overlay-content">
+                <label for="overlay5" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
+                <h1>Shop</h1>
+                <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+            </div>
+            </div>
+    </main>
 </body>
 </html>

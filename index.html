@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4d005336e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap" rel="stylesheet">
-
+    <meta name="description" content="Discover the wonders of science at the Community Science Center. Explore hands-on exhibits, interactive displays, and exciting learning experiences for all ages." />
     <title>Home</title>
 </head>
 <body>
     <header>
         <div class="header">
             <section class="logo-text">
-                <img src="images-desktop/logo.svg" class="logo" alt="#########">
-                <div class="text-logo">
-                    <p class="text">Community</p>
-                    <p class="text">Science</p>
-                    <p class="text">Center</p>
-                </div>
+              <a href="index.html">
+              <img src="images-desktop/logo.svg" alt="Site Logo" class="logo"></a>
+              <div class="text-logo">
+                  <p class="text">Community</p>
+                  <p class="text">Science</p>
+                  <p class="text">Center</p>
+              </div>
             </section>
             <div class="container">
             <input type="checkbox" id="menu-checkbox"/>
@@ -33,29 +35,39 @@
             </nav>
             </div>
             <div class="search">
-                <img src="images-phone/P-search-icon.svg" class="search-icon" alt="############">
+                <img src="images-phone/P-search-icon.svg" class="search-icon" alt="Search icon">
         </div>
     </header>
     <main>
-        <img src="images-desktop/logo.svg" alt="#######">
+       <h1>Explore together</h1>
+       <section class="intro">
+        <img src="images-phone/P-kids-smiling-phone.png" alt="Three young children watching something with excitement and curiosity, with colorful artwork in the background." />
+        <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
+       </section>
+       <img src="images-desktop/D-Girl-looking-at-exhibition.jpg" alt="Young girl curiously observing a science exhibit with colorful wires and structures in a museum setting.">
+       <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
+        </p>
+        <img src="images-desktop/D-boy-in.activity..jpg" alt="Smiling young boy playing on a colorful circular climbing structure in an indoor play area." />
+        <p>We believe science should not be confined to the textbook, but brought to live through exhibits.</p>
+        <img src="images-desktop/D-kids-looking-at light.jpg" alt="Children interacting with glowing water displays in a dark, blue-lit science exhibit." />
+        <p>This is why we have over 1000 different exhibits on the many varied subjects of science to explore. </p>
+        <p>Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).  </p>
         <div class="bottom-nav">
-             <!-- Toggle buttons -->
             <input type="checkbox" id="overlay1" hidden>
             <input type="checkbox" id="overlay2" hidden>
             <input type="checkbox" id="overlay3" hidden>
             <input type="checkbox" id="overlay4" hidden>
             <input type="checkbox" id="overlay5" hidden>
             <div class="buttons">
-                <label for="overlay1" class="open-button1"><img src="images-desktop/D-info.svg" class="img-ove1" alt="########"></label>
-                <label for="overlay2" class="open-button2"><img src="images-desktop/D-location.svg" class="img-ove2" alt="#######"></label>
-                <label for="overlay3" class="open-button3"><img src="images-desktop/D-food.svg" class="img-ove3" alt="########"></label>
-                <label for="overlay4" class="open-button4"><img src="images-desktop/D-access.svg" class="img-ove4" alt="#########"></label>
-                <label for="overlay5" class="open-button5"><img src="images-desktop/D-shop.svg" class="img-ove5" alt="#########"></label>
+                <label for="overlay1" class="open-button1"><img src="images-desktop/D-info.svg" class="img-ove1" alt="Information icon"></label>
+                <label for="overlay2" class="open-button2"><img src="images-desktop/D-location.svg" class="img-ove2" alt="Locations icon"></label>
+                <label for="overlay3" class="open-button3"><img src="images-desktop/D-food.svg" class="img-ove3" alt="Food and drink icon"></label>
+                <label for="overlay4" class="open-button4"><img src="images-desktop/D-access.svg" class="img-ove4" alt="Accessibility icon."></label>
+                <label for="overlay5" class="open-button5"><img src="images-desktop/D-shop.svg" class="img-ove5" alt="Shop icon"></label>
             </div>
-            <!-- Overlay 1 -->
             <div class="overlay" id="overlay-1">
             <div class="overlay-content">
-                <label for="overlay1" class="close-button">&times;<img src="images-desktop/D-x.svg" alt="#########"></label>
+                <label for="overlay1" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
                 <h1>OPENING HOURS</h1>
                 <p>Monday: Closed</p>
                 <p>Tuesday: 10:00 – 16:00</p>
@@ -66,49 +78,37 @@
                 <p>Sunday: 09:00 – 13:00</p>
             </div>
             </div>
-            <!-- Overlay 2 -->
             <div class="overlay" id="overlay-2">
             <div class="overlay-content">
-                <label for="overlay2" class="close-button">&times;<img src="images-desktop/D-x.svg" alt="#########"></label>
+                <label for="overlay2" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
                 <h1>Location</h1>
                 <p>The museum is located at storgaten 16, 3126 Tønsberg</p>
                 <div>
                     <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.0131769262891!2d10.407391177649197!3d59.26592887458365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b73fd14e72cd%3A0xd2b74cdd6f275640!2sStorgaten%2016%2C%203126%20T%C3%B8nsberg!5e0!3m2!1sno!2sno!4v1746888124834!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-
             </div>
             </div>
-            <!-- Overlay 3 -->
             <div class="overlay" id="overlay-3">
             <div class="overlay-content">
-                <label for="overlay3" class="close-button">&times;<img src="images-desktop/D-x.svg" alt="#########"></label>
+                <label for="overlay3" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
                 <h1>Food and drink</h1>
                 <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
             </div>
             </div>
-            <!-- Overlay 4 -->
             <div class="overlay" id="overlay-4">
             <div class="overlay-content">
-                <label for="overlay4" class="close-button">&times;<img src="images-desktop/D-x.svg" alt="#########"></label>
+                <label for="overlay4" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
                 <h1>Accessibility</h1>
                 <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired</p>
             </div>
             </div> 
-           
             <div class="overlay" id="overlay-5">
             <div class="overlay-content">
-                <label for="overlay5" class="close-button">&times;<img src="images-desktop/D-x.svg" alt="#########"></label>
+                <label for="overlay5" class="close-button"><img src="images-desktop/D-x.svg" alt="Exit/close icon"></label>
                 <h1>Shop</h1>
                 <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
             </div>
             </div>
-        </div>
-        <img src="images-desktop/D-kids-with-biology.jpg" class="testimg" alt="33333">
-        </div>
-
-
-
-
     </main>
 </body>
 </html>
